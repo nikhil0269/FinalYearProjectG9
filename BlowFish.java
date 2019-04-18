@@ -46,7 +46,7 @@ public class BlowFish {
 
 	public static void main(String[] args) {
 		
-		File inputFile = new File("100kb.txt");
+		File inputFile = new File("5mb.txt");
 		File encryptedFile = new File("encryptedFile");
 		
 		File decryptedFile = new File("decrypted.txt");
