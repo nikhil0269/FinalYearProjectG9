@@ -17,7 +17,7 @@ public class DES {
 		try {
 			String key = "squirrel123"; // needs to be at least 8 characters for DES
 
-			FileInputStream fis = new FileInputStream("5mb.txt");
+			FileInputStream fis = new FileInputStream("20mb.txt");
 			FileOutputStream fos = new FileOutputStream("encryptedFile");
 			encrypt(key, fis, fos);
 

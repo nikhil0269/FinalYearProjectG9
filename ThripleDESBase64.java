@@ -71,7 +71,7 @@ public class ThripleDESBase64 {
 	ThripleDESBase64 a=new ThripleDESBase64();	
 	String input = "3DES is another strong sync encryption algo";
         String DESbase64Key = "6lRqh2yaYyc1NV2oCcqltC0hYp/9Lnn5";
-	input=a.readFile("5mb.txt");
+	input=a.readFile("20mb.txt");
         String encryptedBase63_3DES = ThripleDESBase64.encrypt(DESbase64Key, input);
         //String decrypted3DES = ThripleDESBase64.decrypt(DESbase64Key, encryptedBase63_3DES);
         //System.out.println("3DES test result:" + decrypted3DES);

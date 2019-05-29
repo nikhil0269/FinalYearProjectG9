@@ -157,7 +157,7 @@ return null;
         String input = "AES is strongest sync encryption algo";
         //initialVector.length = key.length
 	AES a=new AES();
-	String file="50kb.txt";
+	String file="2mb.txt";
 	input=a.readFile(file);
 	
 
